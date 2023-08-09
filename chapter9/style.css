@@ -28,6 +28,8 @@ main {
 }
 
 .step-img1 {
+/**/
+  width: 90%;
   height: 150px;
   background-image: url(img/flow01.png);
   background-position: bottom;
@@ -35,6 +37,8 @@ main {
 }
 
 .step-img2 {
+/**/
+  width: 90%;
   height: 150px;
   background-image: url(img/flow02.png);
   background-position: bottom;
@@ -42,6 +46,8 @@ main {
 }
 
 .step-img3 {
+/**/
+  width: 90%;
   height: 150px;
   background-image: url(img/flow03.png);
   background-position: bottom;
@@ -64,3 +70,10 @@ footer {
   height: 50px;
   background-color: #aaa;
 }
+
+/**/
+@media screen and (min-width: 768px) {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
