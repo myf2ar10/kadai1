@@ -28,8 +28,6 @@ main {
 }
 
 .step-img1 {
-/**/
-  width: 90%;
   height: 150px;
   background-image: url(img/flow01.png);
   background-position: bottom;
@@ -37,8 +35,6 @@ main {
 }
 
 .step-img2 {
-/**/
-  width: 90%;
   height: 150px;
   background-image: url(img/flow02.png);
   background-position: bottom;
@@ -46,8 +42,6 @@ main {
 }
 
 .step-img3 {
-/**/
-  width: 90%;
   height: 150px;
   background-image: url(img/flow03.png);
   background-position: bottom;
@@ -72,10 +66,10 @@ footer {
 }
 
 
-  /**/
-  /* タブレット縦置きサイズ（768px）以下の際に適用される設定 */
-@media screen and (max-width:768px) {
-  .social i {
-    color: red;
+
+/*追加*/
+@media screen and (max-width: 768px) {
+  .step-box  {
+    display: block;
   }
 }
